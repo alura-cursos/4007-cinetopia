@@ -6,8 +6,6 @@ class SearchMovies extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: MovieCard(),),
-    );
+    return Center(child: MovieCard());
   }
 }
