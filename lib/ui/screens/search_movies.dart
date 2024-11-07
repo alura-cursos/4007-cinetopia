@@ -1,4 +1,4 @@
-import 'package:cinetopia/ui/componets/movie_card.dart';
+import 'package:cinetopia/ui/components/movie_card.dart';
 import 'package:flutter/material.dart';
 
 class SearchMovies extends StatelessWidget {

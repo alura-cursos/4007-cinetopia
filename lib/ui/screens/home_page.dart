@@ -1,4 +1,4 @@
-import 'package:cinetopia/ui/componets/buttons.dart';
+import 'package:cinetopia/ui/components/buttons.dart';
 import 'package:cinetopia/ui/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
