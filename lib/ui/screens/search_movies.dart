@@ -1,10 +1,10 @@
-import 'package:cinetopia/app/services/search_movies_service.dart';
 import 'package:cinetopia/app/viewmodels/search_movies_viewmodel.dart';
 import 'package:cinetopia/ui/components/movie_card.dart';
 import 'package:flutter/material.dart';
 
 class SearchMovies extends StatelessWidget {
   final SearchMoviesViewmodel viewmodel = SearchMoviesViewmodel();
+  final TextEditingController textController = TextEditingController();
 
   SearchMovies({super.key});
 
@@ -37,6 +37,10 @@ class SearchMovies extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.only(bottom: 32),
                   child: TextField(
+                    controller: textController,
+                    onEditingComplete: () {
+                      viewmodel.getMovie(textController.text);
+                    },
                     decoration: InputDecoration(
                       hintText: "Pesquisar",
                       border: OutlineInputBorder(
