@@ -3,14 +3,14 @@ import 'package:cinetopia/ui/components/movie_card.dart';
 import 'package:flutter/material.dart';
 
 class SearchMovies extends StatelessWidget {
-  final SearchMoviesService searchMoviesService = SearchMoviesService();
+  final SearchPopularMoviesService searchPopularMoviesService = SearchPopularMoviesService();
 
   SearchMovies({super.key});
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: searchMoviesService.searchMovies(),
+      future: searchPopularMoviesService.getMovies(),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           return CustomScrollView(
