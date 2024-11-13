@@ -1,4 +1,5 @@
 
+![Mobile-Flutter_ Desenvolvendo apps com Design Patterns](https://github.com/user-attachments/assets/103efc84-4c1e-4379-b04b-93fb4926fb93)
 
 ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
@@ -10,7 +11,8 @@ Aplicativo de visualização, busca e próximos lançamentos de filmes.
 
 Dentro do app você ver os filmes populares do momento, buscar por filmes, ver detalhes como sinopse e data de lançamento, além de uma foto do pôster. Você pode buscar por filmes e também ver os próximos lançamentos.
 
-![](img/amostra.gif)
+![Gif da aplicação funcionando](https://github.com/user-attachments/assets/66df3eea-aa3d-4e5e-98ab-0280e8040f29)
+
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
